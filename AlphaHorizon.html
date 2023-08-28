@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Finance Dashboard</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: white;
+            color: #333;
+            padding: 20px;
+        }
+        
+        h1, h2 {
+            color: yellow;
+        }
+
+        .goal {
+            border: 1px solid yellow;
+            padding: 15px;
+            margin-top: 10px;
+            border-radius: 5px;
+        }
+
+        .progress-bar {
+            background-color: #eee;
+            border-radius: 3px;
+            overflow: hidden;
+            height: 25px;
+        }
+
+        .progress-bar .progress {
+            background-color: yellow;
+            height: 100%;
+        }
+    </style>
+</head>
+<body>
+    <h1>Personal Finance Dashboard</h1>
+    <h2>Progress Towards Life Goals</h2>
+
+    <!-- Example of a goal block -->
+    <div class="goal">
+        <h3>Saving for College</h3>
+        <div class="progress-bar">
+            <!-- Adjust the width to represent progress. Example: 50% -->
+            <div class="progress" style="width: 50%;"></div>
+        </div>
+        <p>Current Savings: $5,000 / $10,000</p>
+    </div>
+
+    <div class="goal">
+        <h3>Buying a Home</h3>
+        <div class="progress-bar">
+            <!-- Adjust the width to represent progress. Example: 30% -->
+            <div class="progress" style="width: 30%;"></div>
+        </div>
+        <p>Current Savings: $30,000 / $100,000</p>
+    </div>
+
+    <!-- You can add more goal blocks as needed -->
+
+</body>
+</html>
